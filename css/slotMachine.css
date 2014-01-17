@@ -45,12 +45,14 @@
 	float: left;
 	margin-top: 40%;
 	margin-left: 10%;
-	height: 63px;
+	height: 65px;
 	width: 300px;
 	border-style: solid;
 	border-color: #B5916C;
 	border-width: 1px;
 	text-align: center;
 	font-size: 150%;
-	padding-top: 36px;
+	padding-top: 33px;
+	font-family: Palatino Linotype;
+	color: orangered;
 }
