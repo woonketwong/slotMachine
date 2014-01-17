@@ -1,0 +1,56 @@
+#extBody{
+	width: 600px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+#body1{
+	position: absolute;
+	width: 600px;
+	height: 200px;
+	overflow: hidden;
+  border-style:  solid;
+	border-color:  #B5916C;
+	border-width:  1px;
+}
+#reel1 {
+	position: absolute;
+    background-color: white;
+}
+#reel2{
+	position: absolute;
+	left: 200px;
+}
+#reel3{
+	position: absolute;
+	left: 400px;
+}
+#spinButton{
+    float: right;
+    margin-top: 40%; 
+    margin-right: 10%; 
+    height: 100px; 
+    width: 100px;    
+	  font-size: 150%;
+    border-color:#B5916C;
+	  border-width:  1px;
+	  border-style:  solid;
+	  background-color: white;
+	  background-image: url('../img/hot_spin.jpg');
+	  border-radius: 50px;
+}
+#resultTextArea{
+	float: left;
+	margin-top: 40%;
+	margin-left: 10%;
+	height: 63px;
+	width: 300px;
+	border-style: solid;
+	border-color: #B5916C;
+	border-width: 1px;
+	text-align: center;
+	font-size: 150%;
+	padding-top: 36px;
+}

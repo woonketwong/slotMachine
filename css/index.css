@@ -1,0 +1,165 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: black;
+}
+h1{
+	font-size: 100%;
+}
+h2{
+	font-size: 120%;
+}
+h3{
+	font-size: 90%;
+}
+blockquote{
+	font-style: italic;
+}
+#bodyContainerTop{
+	width: 100%;
+	height: 200px;
+	background-image: url(images/header4.png);
+	background-repeat:  no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+#bodyContainerInner{
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+#bodyContainerInner h1{
+	position:absolute;
+	font-family: Lucida Sans Unicode, sans-serif;
+	font-size: 50px;
+	font-weight: 100;
+	margin-top:25px;
+	margin-left: 250px;
+}
+#topImg{
+	position:absolute;
+	margin-top:20px;
+	margin-left: 150px;
+}
+#bodyContainerInner p{
+	position:absolute;
+	text-align: center;
+	font-family: Lucida Sans Unicode, sans-serif;
+	font-size: 16px;
+	margin-left: 120px;
+	margin-top:120px;
+}
+#bodyContainerMiddle{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style:  solid;
+	border-color:  white;
+    border-radius: 15px;
+	border-width:  1px;
+	background-color: #FFFFFF;
+	clear: both;
+	/*box-shadow: 10px 10px 20px #888888;*/
+}
+#bodyContainerMiddle img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#bodyContainerMiddle h1{
+	text-align: center;
+	font-family: Lucida Sans Unicode, sans-serif;
+	font-size: 50px;
+	font-weight: 100;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #E0E0E0;
+	margin: 50px 40px 50px 40px;
+}
+#bodyContainerMiddle  h2{
+	font-size: 28px;
+	color: #A0A0A0;
+	text-align: center;
+}
+#locationAwareWebPage{
+	margin: 50px 40px 50px 40px;	
+}
+a.portfolioElemTitle{
+	color: #A0A0A0;
+	text-decoration: none;
+}
+a.portfolioElemTitle:visited{
+	color: #A0A0A0;
+}
+a.portfolioElemTitle:hover{
+	color: #FF9933;
+}
+a.readMore{
+	color: #FF9933;
+	text-decoration: none;
+}
+a.readMore:hover{
+	text-decoration: underline;
+}
+a.readMore:visited{
+	color: #FF9933;
+}
+.datePosted{
+	color: #FF9933;
+	font-size: 70%;
+}
+.datePostedTitle{
+	color: gray;
+	font-size: 70%;
+}
+#XMLHttpRequestAndJSONRandomProverbWebPage{
+	margin: 50px 40px 50px 40px;
+}
+#slotMachineWebPage{
+	margin: 50px 40px 50px 40px;	
+}
+#drawingOnTheCanvasWebPage{
+	margin: 50px 40px 50px 40px;	
+}
+#subPageText{
+	text-align: justify;
+	margin: 50px 40px 50px 40px;	
+}
+#subPageHeader{
+	margin: 50px 40px 50px 40px;	
+}
+#subPageTitle{
+	text-align: center;
+}
+#randomProverb{
+	width: 500px;
+	height: 80px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-style:  solid;
+	border-color:  #B5916C;
+	border-width:  1px;
+	color: black;
+}
+#codeExample{
+	background-color: #EDEDED;
+}
+#comment{
+	font-family: Lucida Sans Unicode, sans-serif;
+	font-size: 16px;
+	color:white;
+	margin-left: 330px;
+	margin-top: 20px;
+	font-size:80%;
+}
+#footer {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 10px;
+	clear: left;
+	color: white;
+}

@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Slot Machine</title>
+<link rel="stylesheet" href="css/slotMachine.css" />
+<link rel="stylesheet" href="css/index.css" />
+<script src="js/classReel.js"></script>
+</head>
+
+<body>
+<div id="bodyContainerTop">
+	<div id="bodyContainerInner">
+		<div id="topImg"><img src="img/logo.png"></div>
+		<div id="topTitle">
+			<h1>
+			Slot Machine
+		  </h1>
+		</div>
+	  <p>Don't know what to drink for your break? This slot machine that </br>pays out drink* will lend you a hand!</p>
+	</div>
+</div>
+
+<div id="bodyContainerMiddle">
+<div id="extBody">
+    
+<div id="body1">
+
+<div id="reel1">
+<img src="img/reel1.jpg"/>
+</div>
+
+<div id="reel2">
+<img src="img/reel2.jpg"/>
+</div>
+
+<div id="reel3">
+<img src="img/reel3.jpg"/>
+</div>
+
+</div>
+
+<div>
+	<form>
+	    <button id="spinButton" value="SPIN"></button>
+	</form>     
+	 
+	<p id="resultTextArea">
+	Try your luck here!
+	</p>
+
+</div>
+</div>
+
+<!-- <div id="subPageText">
+
+<p id="subPageTitle">
+<strong>
+Slot Machine That Pays In Drink
+</strong>
+</p>
+
+<p>
+By using JavaScript to interact with CSS, an animation effect can be created and an example is shown here with a slot machine simulation. 
+When a user spins the slot machine and the three reels come to a stop with aligned correlated items, the user wins a cup of drink. The winning reel combinations and its award are:<br />
+<br />
+- coffee maker, coffee filter, and coffee grounds:  coffee<br />
+- teapot, tea strainer, and loose tea:  tea<br />
+- espresso machine, espresso tamper, and ground espresso beans:  espresso<br />
+<br />
+The technique used here is first by defining a div section large enough to encompass the three reels area. In the first div, its CSS attributes - position, is set to "absolute" 
+and overflow, is set to "hidden". Inside this div section, three div sections are nested to represent the three reels. 
+By using the Window setInterval() method, a function can be called in short interval to modify the reels' CSS attribute - top, thus creating an animation effect. 
+To reuse code in generating three reel objects, a class reel is created in JavaScript that defines the reel property and method (what it can do).
+The following shows the high level implementation:
+</p>
+<br />
+<div id="codeExample">
+<pre>
+    // compose three images for each reel, where each image contains picture of correlated items. 
+    // define div areas
+    // define class reel
+    // instatiates 3 reels for the slot machine
+    // register the event listener (spin.onclick) with event handler
+       // call spin method
+       // monitor done spinning flag
+       // call check result and display message
+       // reset slot machine states
+</pre>
+</div>
+<br />
+<p>
+Window methods setInterval() and clearInterval() are also used in checking the state of the slot machine, i.e spinning or done spinning. The check result function pokes into the reels' 
+CSS attribute - top position to conclude whether correlated items are aligned. At last, a message is displayed to notify user the result. 
+</p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</div> -->
+</div>
+<script type="text/javascript" src="js/runSlotMachine.js"></script>
+
+<div id="comment">
+  <p>*Award:</p>
+	<ol>
+	  <li>coffee with matching symbols: coffee maker, coffee filter, coffee ground</li>
+	  <li>tea with matching symbols: teapot, tea strainer, loose tea</li>
+	  <li>expresso: with matching symbols: expresso machine, expresso tamper, espresso beans</li>
+	</ol>
+</div>
+<div id="footer">	
+<p>
+&copy; 2014 Woon Ket Wong	
+</p>
+</div>
+
+</body>  
+
+</html>
